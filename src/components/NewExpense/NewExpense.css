@@ -1,0 +1,40 @@
+.new-expense{
+    /* height: 200px; */
+    width: 60%;
+    margin-bottom: 20px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(117, 117, 223);
+    border-radius: 20px;
+    overflow: hidden;
+    color: aliceblue;
+    font-weight: 600;
+}
+.new-expense-input{
+    width: 300px;
+    height: 40px;
+    /* margin: 10px; */
+}
+.new-expense-row{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+.new-expense>button{
+    /* margin-top: 10px; */
+    height: 60px;
+    background-color: rgb(122, 105, 139);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+}
+.new-expense>button:hover{
+    cursor: pointer;
+    background-color: rgb(45, 45, 135);
+}

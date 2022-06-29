@@ -1,0 +1,9 @@
+.expense-list{
+    background-color: aqua;
+    width: 70vw;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
